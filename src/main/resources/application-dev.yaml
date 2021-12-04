@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: PythonProcessor
+  config:
+    activate:
+      on-profile: dev
+  pyLibraryPath: "D:\\python\\Lib\\site-packages"
+  pythonPath: "D:\\python\\python.exe"
+  pyLibName: "pyRunner\\main.py"
