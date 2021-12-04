@@ -1,0 +1,13 @@
+services:
+  hazelcast:
+    image: "hazelcast/hazelcast"
+    container_name: hazelcast
+    ports:
+      - 5701:5701
+    hostname: hazelcast-service
+  hazelcast-management-service:
+    image: "hazelcast/management-center"
+    container_name: hazelcast-management-center
+    ports:
+      - "8080:8080"
+
